@@ -1,6 +1,6 @@
 # Scrap Walmart
 
-This script retrieve the information about the departments, categories and subcategories from the grocery store [Walmart Mexico](https://super.walmart.com.mx/). The output is a json file which contains the name and URL to access to all the departments, categories and subcategories.
+This Python script retrieve the information about the departments, categories and subcategories from the grocery store [Walmart Mexico](https://super.walmart.com.mx/). The output is a json file which contains the name and URL to access to all the departments, categories and subcategories.
 
 To run this script, clone this repo in your computer:
 ```bash
@@ -68,3 +68,4 @@ A new file `data/menu_despensa.json` will be created with the information. The f
       ...
 ]
 ```
+For this project I used the librarie [`requests`](https://requests.readthedocs.io/en/latest/).
