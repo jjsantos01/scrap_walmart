@@ -103,4 +103,4 @@ def get_menu_despensa():
 menu_despensa = get_menu_despensa()
 with open('data/menu_despensa.json', 'w') as file:
     json.dump(menu_despensa, file, indent=4)
-print(menu_despensa)
+print("Task finished!")
